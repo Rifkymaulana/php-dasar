@@ -6,7 +6,7 @@
     // ternary
     // switch
 
-    // sintaks if
+    // sintaks if, else, else if
     $x = 30;
     if($x < 20){
         echo "benar";
@@ -16,6 +16,5 @@
         echo "salah";
     }
 
-    // sintaks if else if else
 
 ?>
