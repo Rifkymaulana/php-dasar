@@ -59,16 +59,6 @@
         <li>rifky@gmail.com</li>
     </ul> -->
 
-    <?php foreach($mahasiswa as $mhs) : ?>
-    <ul>
-        <li>
-            <img src="img/<?= $mhs["gambar"]; ?> alt="">
-        </li>
-        <li>Nama : <?= $mhs["nama"]; ?></li>
-        <li>NPM :<?= $mhs["npm"]; ?></li>
-        <li>Jurusan :<?= $mhs["email"]; ?></li>
-        <li>Email :<?= $mhs["jurusan"]; ?></li>
-    </ul>
-    <?php endforeach; ?>
+
 </body>
 </html>
