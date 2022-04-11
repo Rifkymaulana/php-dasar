@@ -1,8 +1,14 @@
 database : phpdasar
-tabel : mahasiswa
 
+
+tabel : mahasiswa
 id int primary key auto_increment
 nama varchar(100)
 npm varchar(100)
 email varchar(100)
 jurusan varchar(100)
+
+tabel : user
+id int primary key auto_increment
+username varchar(50)
+password varchar(255)
